@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Nunito;
+    background-color:#0c79cd;
+}
+
+.container{
+    text-align:center;
+}
+button{
+    font-size:20px;
+    padding:12px 25px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+#yes-btn{
+    background-color:#ff4d6d;
+    color:white;
+}
+
+#no-btn{
+    background-color:#6c757d;
+    color:white;
+}
+button:hover{
+    transform:scale(1.1);
+    transition:0.2s;
+}
+.buttons{
+    margin-top:20px;
+}
+h1{
+    font-size:40px;
+}

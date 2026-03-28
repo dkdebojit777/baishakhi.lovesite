@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:Nunito;
+    background-color:#0c79cd;
+}
+
+.container{
+    text-align:center;
+}
+button{
+    font-size:20px;
+    padding:12px 25px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+#yes-btn{
+    background-color:#ff4d6d;
+    color:white;
+}
+
+#no-btn{
+    background-color:#6c757d;
+    color:white;
+}
+button:hover{
+    transform:scale(1.1);
+    transition:0.2s;
+}
+.buttons{
+    margin-top:20px;
+}
+h1{
+    font-size:40px;
+}
+.calendar{
+    width:320px;
+    margin:20px auto;
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.days, .dates{
+    display:grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:5px;
+}
+
+.days div{
+    font-weight:bold;
+}
+
+.dates div{
+    padding:10px;
+    background:#f0f0f0;
+    border-radius:8px;
+}
+
+.dates div:hover{
+    background:#ff4d6d;
+    color:white;
+    cursor:pointer;
+}
+.main-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:40px;
+}
+
+.left{
+    width:50%;
+}
+
+.right{
+    width:50%;
+    text-align:center;
+}
+
+.poll-container button{
+    margin:10px;
+    padding:10px 15px;
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+}
+
+.results{
+    margin-top:20px;
+}
+
+.bar{
+    width:100%;
+    height:20px;
+    background:#ddd;
+    margin:5px 0;
+    border-radius:10px;
+}
+
+.fill{
+    height:100%;
+    width:0%;
+    background:#ff4d6d;
+    color:white;
+    text-align:center;
+    border-radius:10px;
+}
